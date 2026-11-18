@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#050B1F</color>
+    <color name="surface">#0A1636</color>
+    <color name="card">#0E1E47</color>
+    <color name="card_sel">#123A7A</color>
+    <color name="stroke">#1E3A78</color>
+    <color name="blue">#1E88FF</color>
+    <color name="blue_light">#5CB3FF</color>
+    <color name="green">#4CDB3C</color>
+    <color name="green_dark">#2E9E22</color>
+    <color name="text">#F2F6FF</color>
+    <color name="muted">#8EA3CF</color>
+    <color name="overlay">#CC000000</color>
+    <color name="icon_bg">#04123A</color>
+</resources>

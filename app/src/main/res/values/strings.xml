@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ibra APK Share</string>
+    <string name="subtitle">مشاركة وحفظ التطبيقات</string>
+    <string name="search_hint">ابحث باسم التطبيق أو الحزمة…</string>
+    <string name="show_system">إظهار تطبيقات النظام</string>
+    <string name="count_fmt">%d تطبيق</string>
+    <string name="selected_fmt">محدد: %d</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="empty">لا توجد تطبيقات مطابقة</string>
+    <string name="loading">جارٍ تحميل التطبيقات…</string>
+    <string name="preparing">جارٍ تجهيز ملفات APK…</string>
+    <string name="saving">جارٍ الحفظ…</string>
+
+    <string name="act_bluetooth">إرسال بلوتوث</string>
+    <string name="act_save">حفظ APK</string>
+    <string name="act_share">مشاركة</string>
+    <string name="act_bluetooth_long">إرسال عبر البلوتوث (APK)</string>
+    <string name="act_save_long">حفظ كملف APK في الجهاز</string>
+    <string name="act_share_long">مشاركة عبر تطبيق آخر</string>
+    <string name="act_open">فتح التطبيق</string>
+    <string name="act_info">معلومات التطبيق</string>
+
+    <string name="sort_name">ترتيب حسب الاسم</string>
+    <string name="sort_size">ترتيب حسب الحجم</string>
+    <string name="sort_date">ترتيب حسب الأحدث</string>
+    <string name="send_as_zip">إرسال كـ ZIP (للأجهزة التي ترفض APK)</string>
+    <string name="refresh">تحديث القائمة</string>
+    <string name="about">حول</string>
+
+    <string name="badge_system">نظام</string>
+    <string name="badge_split">مقسّم</string>
+    <string name="badge_user">مستخدم</string>
+
+    <string name="d_package">الحزمة: %s</string>
+    <string name="d_version">الإصدار: %1$s (%2$d)</string>
+    <string name="d_size">الحجم: %s</string>
+    <string name="d_type">النوع: %s</string>
+    <string name="d_installed">التثبيت: %s</string>
+    <string name="d_updated">آخر تحديث: %s</string>
+    <string name="type_system">تطبيق نظام</string>
+    <string name="type_user">تطبيق مستخدم</string>
+    <string name="split_note">تطبيق مقسّم (عدة ملفات) — يُحفظ ويُرسل كملف .apks ويُثبَّت ببرنامج مثل SAI</string>
+
+    <string name="no_bluetooth">لم يتم العثور على البلوتوث في هذا الجهاز، اختر طريقة الإرسال</string>
+    <string name="no_launch">هذا التطبيق ليس له واجهة تشغيل</string>
+    <string name="saved_title">تم الحفظ ✅</string>
+    <string name="saved_fmt">تم حفظ %1$d ملف في:\n%2$s</string>
+    <string name="error_fmt">حدث خطأ: %s</string>
+    <string name="perm_denied">يلزم إذن التخزين لحفظ الملف</string>
+    <string name="ok">حسناً</string>
+    <string name="share_title">مشاركة عبر</string>
+
+    <string name="about_dev">برمجة وتطوير ابراهيم الخزرجي</string>
+    <string name="about_desc">أرسل أي تطبيق مثبّت على جهازك كملف APK عبر البلوتوث، أو احفظه في الجهاز، أو شاركه بأي تطبيق.</string>
+    <string name="about_site">🌐 موقع تطبيقاتي</string>
+    <string name="about_telegram">✈️ تيليكرام ibraprogram</string>
+    <string name="about_tiktok">🎵 تيك توك ibraprogram</string>
+    <string name="about_share_self">📤 شارك Ibra APK Share مع أصدقائك</string>
+    <string name="version_fmt">الإصدار %s</string>
+</resources>

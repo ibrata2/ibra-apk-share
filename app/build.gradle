@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ibraprogram.apkshare'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.ibraprogram.apkshare"
+        minSdk 21          // Android 5.0 فما فوق (تقريباً كل الأجهزة)
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../keystore/ibra-apk-share.jks")
+            storePassword "ibraapkshare2026"
+            keyAlias "ibraapkshare"
+            keyPassword "ibraapkshare2026"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
