@@ -32,6 +32,7 @@ jobs:
           VER=$(grep -m1 versionName app/build.gradle | sed -E 's/.*"(.*)".*/\1/')
           mkdir -p out
           cp app/build/outputs/apk/release/app-release.apk "out/Ibra-APK-Share-v${VER}.apk"
+          echo "VER=${VER}" >> "$GITHUB_ENV"
           ls -la out
 
       - uses: actions/upload-artifact@v4
@@ -39,8 +40,17 @@ jobs:
           name: Ibra-APK-Share
           path: out/*.apk
 
-      - name: Publish release (on tag)
-        if: startsWith(github.ref, 'refs/tags/')
+      - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ env.VER }}
+          name: Ibra APK Share v${{ env.VER }}
+          target_commitish: ${{ github.sha }}
+          make_latest: true
           files: out/*.apk
+          body: |
+            Ibra APK Share v${{ env.VER }}
+            - عرض التطبيقات المثبتة مع خيار تطبيقات النظام
+            - إرسال APK عبر البلوتوث
+            - حفظ APK في Download/Ibra APK Share
+            برمجة وتطوير ابراهيم الخزرجي
